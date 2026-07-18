@@ -341,12 +341,13 @@ button { font: inherit; }
   .menu-button { display: inline-grid; }
   .mobile-nav {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 8px 16px 14px;
     background: var(--surface);
     border-bottom: 1px solid var(--line);
   }
   .mobile-nav a { padding: 8px; color: var(--muted); font-size: 0.75rem; text-align: center; }
+  .mobile-nav a.active { color: var(--ink); }
 }
 
 @media (max-width: 700px) {
@@ -363,7 +364,6 @@ button { font: inherit; }
 
 @media (max-width: 480px) {
   .brand-name { display: none; }
-  .mobile-nav { grid-template-columns: repeat(2, 1fr); }
   .footer-inner { padding: 18px 0; flex-direction: column; text-align: center; }
 }
 

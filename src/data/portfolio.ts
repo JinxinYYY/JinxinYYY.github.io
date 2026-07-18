@@ -20,9 +20,9 @@ export type Education = {
 };
 
 export const navItems: NavItem[] = [
-  { label: "Home", href: "#home" },
-  { label: "Experience", href: "#experience" },
-  { label: "Publications", href: "#publications" },
+  { label: "Home", href: "/" },
+  { label: "Experience", href: "/experience/" },
+  { label: "Publications", href: "/publications/" },
 ];
 
 export const experiences: Experience[] = [
