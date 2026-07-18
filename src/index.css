@@ -268,26 +268,9 @@ button { font: inherit; }
   color: var(--muted);
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(270px, 0.75fr);
-  gap: 68px;
-}
-
 .prose-large p { margin: 0 0 16px; }
 
-.fact-panel { margin: 0; border-top: 1px solid var(--ink); }
-
-.fact-panel > div {
-  display: grid;
-  grid-template-columns: 105px 1fr;
-  gap: 14px;
-  padding: 11px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.fact-panel dt { color: var(--muted); font-size: 0.7rem; }
-.fact-panel dd { margin: 0; font-size: 0.78rem; font-weight: 500; }
+.about-copy { max-width: 900px; }
 
 .experience-list {
   display: grid;
@@ -487,7 +470,6 @@ button { font: inherit; }
   .hero { padding: 112px 0 60px; }
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero-aside { padding: 22px 0 0; border-top: 1px solid var(--line); border-left: 0; }
-  .about-grid,
   .contact-grid { grid-template-columns: 1fr; gap: 42px; }
   .skills-grid,
   .award-grid { grid-template-columns: 1fr; }
