@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { ResearchExperience } from "./components/ResearchExperience";
 import { Publications } from "./components/Publications";
+import { Misc } from "./components/Misc";
 import { Footer } from "./components/Footer";
 
 function pageContent(pathname: string) {
@@ -13,6 +14,10 @@ function pageContent(pathname: string) {
 
   if (path === "/publications") {
     return <Publications />;
+  }
+
+  if (path === "/misc") {
+    return <Misc />;
   }
 
   return <Hero />;

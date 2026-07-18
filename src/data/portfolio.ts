@@ -23,6 +23,7 @@ export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Experience", href: "/experience/" },
   { label: "Publications", href: "/publications/" },
+  { label: "Misc", href: "/misc/" },
 ];
 
 export const experiences: Experience[] = [

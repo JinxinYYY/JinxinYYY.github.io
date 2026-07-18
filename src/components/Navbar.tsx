@@ -18,10 +18,6 @@ export function Navbar() {
   return (
     <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`}>
       <div className="nav-inner">
-        <a className="brand" href="/" aria-label="Jinxin Yang, home">
-          <span>JY</span>
-          <span className="brand-name">Jinxin Yang</span>
-        </a>
         <nav className="desktop-nav" aria-label="Main navigation">
           {navItems.map((item) => (
             <a
