@@ -1,5 +1,5 @@
 type Props = {
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   intro?: string;
 };
@@ -7,7 +7,7 @@ type Props = {
 export function SectionHeading({ eyebrow, title, intro }: Props) {
   return (
     <div className="section-heading">
-      <span className="eyebrow">{eyebrow}</span>
+      {eyebrow && <span className="eyebrow">{eyebrow}</span>}
       <h2>{title}</h2>
       {intro && <p>{intro}</p>}
     </div>

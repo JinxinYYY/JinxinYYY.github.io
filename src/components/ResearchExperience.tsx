@@ -49,7 +49,6 @@ export function ResearchExperience() {
         </div>
         <div className="education-block">
           <SectionHeading
-            eyebrow="02 / Education"
             title="Education Experience"
           />
           <div className="experience-list">
