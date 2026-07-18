@@ -11,13 +11,11 @@ export type Experience = {
   tags?: string[];
   ongoing?: boolean;
 };
-export type SkillGroup = { title: string; items: string[] };
 
 export const navItems: NavItem[] = [
   { label: "Home", href: "#home" },
   { label: "Experience", href: "#experience" },
   { label: "Publications", href: "#publications" },
-  { label: "Misc", href: "#misc" },
 ];
 
 export const experiences: Experience[] = [
@@ -76,25 +74,4 @@ export const experiences: Experience[] = [
     ],
     tags: ["STM32", "Embedded C", "ADC", "Bluetooth", "Sensor Systems"],
   },
-];
-
-export const skillGroups: SkillGroup[] = [
-  { title: "Programming", items: ["Python", "C", "MATLAB", "HDL", "LaTeX"] },
-  {
-    title: "Research & Modeling",
-    items: ["Markov Decision Processes", "Reinforcement Learning", "Stochastic Modeling", "Age of Information", "Lyapunov Optimization", "Numerical Simulation"],
-  },
-  {
-    title: "Networking & Communications",
-    items: ["Wireless Communications", "Computer Networks", "Multi-Access Edge Computing", "Semantic Communications", "Networked Systems"],
-  },
-  {
-    title: "Machine Learning",
-    items: ["Graph Neural Networks", "Deep Reinforcement Learning", "Machine Learning for Networks"],
-  },
-  {
-    title: "Embedded Systems",
-    items: ["STM32", "Embedded C", "ADC-based Data Acquisition", "Bluetooth Communication", "Sensor Interfaces"],
-  },
-  { title: "Languages", items: ["Mandarin: Native", "English: TOEFL iBT 96, CET-6 593"] },
 ];

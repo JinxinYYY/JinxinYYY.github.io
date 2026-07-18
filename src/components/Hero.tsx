@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { ArrowRight, Github, Mail, MapPin } from "lucide-react";
 
 export function Hero() {
   return (
@@ -34,8 +34,6 @@ export function Hero() {
           <div className="hero-meta"><MapPin size={15} /> Chengdu, China</div>
           <div className="social-row" aria-label="Profile links">
             <a className="social-link" href="https://github.com/Rosword" target="_blank" rel="noreferrer" aria-label="Jinxin Yang on GitHub"><Github size={17} /></a>
-            <span className="social-link social-link--disabled" aria-label="LinkedIn URL to be added" title="LinkedIn URL to be added"><Linkedin size={17} /></span>
-            <span className="social-link social-link--disabled scholar-icon" aria-label="Google Scholar URL to be added" title="Google Scholar URL to be added">G</span>
             <a className="social-link" href="mailto:el23jy2@leeds.ac.uk" aria-label="Email Jinxin Yang"><Mail size={17} /></a>
           </div>
         </aside>

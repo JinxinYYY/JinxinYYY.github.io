@@ -3,10 +3,6 @@ import { Hero } from "./components/Hero";
 import { About } from "./components/About";
 import { ResearchExperience } from "./components/ResearchExperience";
 import { Publications } from "./components/Publications";
-import { Education } from "./components/Education";
-import { Awards } from "./components/Awards";
-import { Skills } from "./components/Skills";
-import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -19,10 +15,6 @@ export default function App() {
         <About />
         <ResearchExperience />
         <Publications />
-        <Education />
-        <Awards />
-        <Skills />
-        <Contact />
       </main>
       <Footer />
     </div>
