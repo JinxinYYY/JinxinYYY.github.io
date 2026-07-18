@@ -1,5 +1,3 @@
-import { ArrowRight } from "lucide-react";
-
 export function Hero() {
   return (
     <section className="hero" id="home">
@@ -30,11 +28,16 @@ export function Hero() {
             .
           </p>
           <div className="hero-actions">
-            <a className="button button--primary" href="#publications">
-              View Publications <ArrowRight size={17} />
+            <a
+              className="button button--text"
+              href="https://www.linkedin.com/in/jinxin-yang-1728aa373/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
             </a>
             <a className="button button--text" href="mailto:el23jy2@leeds.ac.uk">
-              Contact Me
+              Email
             </a>
           </div>
         </div>
