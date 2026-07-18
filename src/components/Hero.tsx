@@ -10,8 +10,10 @@ export function Hero() {
           </h1>
           <p className="hero-title">Undergraduate Researcher in Wireless Communications and Networked Systems</p>
           <p className="hero-lead">
-            Electronic and Electrical Engineering undergraduate at the SWJTU–Leeds Joint School, working on
-            intelligent and reliable networking systems for future AI infrastructure.
+            I am a senior undergraduate student in Electronic and Electrical Engineering at the SWJTU–Leeds Joint
+            School, advised by Prof. Xiangyi Chen. Previously, I was a research intern at UC Santa Cruz, where I
+            worked with Dr. Mohammad Moltafet and Prof. Hamid Sadjadpour. I am currently a research intern at UC
+            Irvine, working with Prof. Yanning Shen.
           </p>
           <div className="hero-actions">
             <a className="button button--primary" href="#research">
