@@ -9,7 +9,7 @@ function institutionLogo(institution: string) {
     return { src: "/logos/uci.png", alt: "UC Irvine logo", variant: "uci" };
   }
   if (institution.includes("Santa Cruz")) {
-    return { src: "/logos/ucsc.png", alt: "UC Santa Cruz logo", variant: "ucsc" };
+    return { src: "/logos/ucsc.jpg", alt: "University of California seal", variant: "ucsc" };
   }
   return { src: "/logos/swjtu.png", alt: "Southwest Jiaotong University logo", variant: "swjtu" };
 }

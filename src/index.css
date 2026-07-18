@@ -223,28 +223,47 @@ button { font: inherit; }
 
 .experience-logo {
   position: absolute;
-  top: 24px;
-  right: 28px;
-  width: auto;
-  max-width: 150px;
-  max-height: 46px;
+  top: -14px;
+  right: -10px;
+  width: 154px;
+  height: 154px;
   object-fit: contain;
+  opacity: 0.16;
   pointer-events: none;
 }
 
-.experience-logo--uci { max-width: 92px; }
-.experience-logo--swjtu { filter: brightness(0); }
+.experience-logo--uci {
+  width: 160px;
+  height: 160px;
+}
+
+.experience-logo--ucsc {
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+}
+
+.experience-logo--swjtu {
+  width: 158px;
+  height: 158px;
+  opacity: 0.13;
+}
 
 :root[data-theme="dark"] .experience-logo {
   filter: brightness(0) invert(1);
-  opacity: 0.82;
+  opacity: 0.16;
+}
+
+:root[data-theme="dark"] .experience-logo--ucsc {
+  filter: invert(1) grayscale(1);
+  mix-blend-mode: screen;
 }
 
 .experience-card h3 {
   position: relative;
   max-width: 760px;
   margin: 0;
-  padding-right: 110px;
+  padding-right: 140px;
   font-size: 1.58rem;
   font-weight: 500;
   line-height: 1.25;
@@ -287,15 +306,17 @@ button { font: inherit; }
 }
 
 .experience-logo--leeds {
-  width: 66px;
-  max-width: 66px;
-  max-height: 66px;
+  top: -12px;
+  right: 10px;
+  width: 108px;
+  height: 148px;
   filter: invert(1);
 }
 
 .education-card .experience-logo--swjtu {
-  max-width: 170px;
-  opacity: 0.14;
+  width: 158px;
+  height: 158px;
+  opacity: 0.13;
 }
 
 .education-facts {
@@ -344,11 +365,14 @@ button { font: inherit; }
   .section { padding: 62px 0; }
   .hero { padding: 112px 0 60px; }
   .experience-card { min-height: 0; padding: 28px 24px; }
-  .experience-logo { top: 22px; right: 20px; max-width: 118px; max-height: 38px; }
-  .experience-logo--uci { max-width: 76px; }
-  .experience-logo--leeds { width: 54px; max-width: 54px; max-height: 54px; }
+  .experience-logo { top: -8px; right: -8px; width: 118px; height: 118px; }
+  .experience-logo--uci,
+  .experience-logo--ucsc,
+  .experience-logo--swjtu,
+  .education-card .experience-logo--swjtu { width: 118px; height: 118px; }
+  .experience-logo--leeds { top: -8px; right: 6px; width: 82px; height: 112px; }
   .education-block { margin-top: 58px; }
-  .experience-card h3 { padding-right: 80px; }
+  .experience-card h3 { padding-right: 105px; }
 }
 
 @media (max-width: 480px) {
