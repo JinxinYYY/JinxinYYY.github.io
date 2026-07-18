@@ -144,7 +144,7 @@ button { font: inherit; }
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(2.7rem, 7vw, 4.8rem);
+  font-size: clamp(2.35rem, 5.5vw, 3.8rem);
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.04em;
