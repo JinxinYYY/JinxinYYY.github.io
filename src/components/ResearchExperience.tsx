@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading";
 
 function institutionLogo(institution: string) {
   if (institution.includes("Leeds")) {
-    return { src: "/logos/leeds.png", alt: "University of Leeds logo", variant: "leeds" };
+    return { src: "/logos/leeds-crest.png", alt: "University of Leeds coat of arms", variant: "leeds" };
   }
   if (institution.includes("Irvine")) {
     return { src: "/logos/uci.png", alt: "UC Irvine logo", variant: "uci" };
