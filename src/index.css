@@ -345,7 +345,6 @@ button { font: inherit; }
 .footer { border-top: 1px solid var(--line); }
 .footer-inner { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .footer p { margin: 0; color: var(--muted); font-size: 0.68rem; }
-.footer-links { display: flex; align-items: center; gap: 13px; }
 @media (max-width: 900px) {
   .desktop-nav { display: none; }
   .menu-button { display: inline-grid; }
