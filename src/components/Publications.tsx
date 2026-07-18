@@ -1,15 +1,9 @@
 import { BookOpen, FileCheck2 } from "lucide-react";
-import { SectionHeading } from "./SectionHeading";
 
 export function Publications() {
   return (
     <section className="section" id="publications">
       <div className="container">
-        <SectionHeading
-          eyebrow="03 / Publications & patents"
-          title="Research outputs."
-          intro="Peer-reviewed work and intellectual property in timely communications and edge computing."
-        />
         <div className="output-list">
           <article className="output-card">
             <div className="output-type"><BookOpen size={19} /> Publication · 2026</div>

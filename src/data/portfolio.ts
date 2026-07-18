@@ -60,18 +60,4 @@ export const experiences: Experience[] = [
     ],
     tags: ["MEC", "Deep Reinforcement Learning", "Lyapunov Optimization", "MATLAB"],
   },
-  {
-    institution: "Southwest Jiaotong University",
-    role: "Undergraduate Researcher — Wireless Data Acquisition for Permanent-Magnet Synchronous Linear Motors",
-    period: "May 2024–April 2025",
-    location: "Chengdu, China",
-    supervisor: "Prof. Jiling Guo",
-    researchArea: "Wireless data acquisition and embedded sensor systems",
-    bullets: [
-      "Co-designed sensor and interface circuits and analyzed motor force characteristics under different operating conditions.",
-      "Developed embedded C firmware on STM32 microcontrollers for multi-channel ADC acquisition and Bluetooth transmission.",
-      "Contributed to reports and presentations for an Excellent Student Research Training Program.",
-    ],
-    tags: ["STM32", "Embedded C", "ADC", "Bluetooth", "Sensor Systems"],
-  },
 ];
