@@ -232,16 +232,23 @@ button { font: inherit; }
   background: var(--surface);
 }
 
-.experience-mark {
+.experience-logo {
   position: absolute;
-  top: 0;
-  right: 22px;
-  color: color-mix(in srgb, var(--accent) 15%, transparent);
-  font-size: 4.8rem;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.08em;
+  top: 24px;
+  right: 28px;
+  width: auto;
+  max-width: 150px;
+  max-height: 46px;
+  object-fit: contain;
   pointer-events: none;
+}
+
+.experience-logo--uci { max-width: 92px; }
+.experience-logo--swjtu { filter: brightness(0); }
+
+:root[data-theme="dark"] .experience-logo {
+  filter: brightness(0) invert(1);
+  opacity: 0.82;
 }
 
 .experience-card h3 {
@@ -311,7 +318,8 @@ button { font: inherit; }
   .section { padding: 62px 0; }
   .hero { padding: 112px 0 60px; }
   .experience-card { min-height: 0; padding: 28px 24px; }
-  .experience-mark { right: 10px; font-size: 3.2rem; }
+  .experience-logo { top: 22px; right: 20px; max-width: 118px; max-height: 38px; }
+  .experience-logo--uci { max-width: 76px; }
   .experience-card h3 { padding-right: 80px; }
 }
 
