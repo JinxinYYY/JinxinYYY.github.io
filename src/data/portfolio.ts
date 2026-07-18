@@ -34,7 +34,6 @@ export const experiences: Experience[] = [
     supervisor: "Prof. Yanning Shen",
     researchArea: "GNN, Machine Learning",
     bullets: [
-      "Semantic wireless communications and real-time remote tracking.",
       "Graph-based machine learning for intelligent communication and networked systems.",
     ],
     ongoing: true,
