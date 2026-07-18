@@ -18,7 +18,6 @@ export function Publications() {
               X. Chen, H. Liu, C. Cheng, Z. Meng, <strong>J. Yang</strong>, Y. Fan, H. Xing, and L. Feng
             </p>
             <p className="venue">Chinese Invention Patent Application · No. CN 202510971145.4</p>
-            <p className="patent-status">Notice of Allowance issued May 2026</p>
           </article>
         </div>
       </div>

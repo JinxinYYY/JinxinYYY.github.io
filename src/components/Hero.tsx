@@ -1,3 +1,5 @@
+import { Linkedin, Mail } from "lucide-react";
+
 export function Hero() {
   return (
     <section className="hero" id="home">
@@ -6,7 +8,6 @@ export function Hero() {
           <h1>
             Jinxin Yang
           </h1>
-          <p className="hero-title">Undergraduate Researcher in Wireless Communications and Networked Systems</p>
           <p className="hero-lead">
             I am a final-year undergraduate student in Electronic and Electrical Engineering at the SWJTU–Leeds Joint
             School, where I am advised by{" "}
@@ -29,15 +30,22 @@ export function Hero() {
           </p>
           <div className="hero-actions">
             <a
-              className="button button--text"
+              className="profile-link"
               href="https://www.linkedin.com/in/jinxin-yang-1728aa373/"
               target="_blank"
               rel="noreferrer"
+              aria-label="Jinxin Yang on LinkedIn"
+              title="LinkedIn"
             >
-              LinkedIn
+              <Linkedin size={21} />
             </a>
-            <a className="button button--text" href="mailto:el23jy2@leeds.ac.uk">
-              Email
+            <a
+              className="profile-link"
+              href="mailto:el23jy2@leeds.ac.uk"
+              aria-label="Email Jinxin Yang"
+              title="Email"
+            >
+              <Mail size={21} />
             </a>
           </div>
         </div>

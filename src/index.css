@@ -161,17 +161,9 @@ button { font: inherit; }
   letter-spacing: -0.04em;
 }
 
-.hero-title {
-  max-width: 620px;
-  margin: 24px 0 0;
-  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
-  font-weight: 500;
-  line-height: 1.35;
-}
-
 .hero-lead {
   max-width: 640px;
-  margin: 18px 0 0;
+  margin: 24px 0 0;
   color: var(--muted);
 }
 
@@ -184,28 +176,19 @@ button { font: inherit; }
 
 .hero-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-  margin-top: 27px;
+  gap: 12px;
+  margin-top: 24px;
 }
 
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  min-height: 39px;
-  padding: 0 14px;
-  border: 1px solid var(--line);
-  font-size: 0.76rem;
-  font-weight: 600;
+.profile-link {
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  color: var(--muted);
 }
 
-.button:hover { border-color: var(--accent); color: var(--accent); }
-.button--primary { background: var(--ink); border-color: var(--ink); color: var(--bg); }
-.button--primary:hover { background: var(--accent); border-color: var(--accent); color: white; }
-.button--secondary { background: var(--surface); }
-.button--text { border-color: transparent; }
+.profile-link:hover { color: var(--ink); }
 
 .section-heading { margin-bottom: 38px; }
 
@@ -306,8 +289,6 @@ button { font: inherit; }
 .output-card h3 { max-width: 760px; margin: 14px 0 7px; font-size: 1.08rem; font-weight: 600; }
 .authors, .venue { margin: 4px 0; color: var(--muted); font-size: 0.8rem; }
 .authors strong { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
-.patent-status { width: max-content; margin: 12px 0 0; color: var(--accent); font-size: 0.73rem; font-weight: 600; }
-
 .footer { border-top: 1px solid var(--line); }
 .footer-inner { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .footer p { margin: 0; color: var(--muted); font-size: 0.68rem; }
@@ -337,8 +318,6 @@ button { font: inherit; }
 @media (max-width: 480px) {
   .brand-name { display: none; }
   .mobile-nav { grid-template-columns: repeat(2, 1fr); }
-  .hero-actions { display: grid; grid-template-columns: 1fr 1fr; }
-  .button--text { grid-column: 1 / -1; }
   .footer-inner { padding: 18px 0; flex-direction: column; text-align: center; }
 }
 
