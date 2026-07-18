@@ -38,7 +38,7 @@ export const experiences: Experience[] = [
     period: "June 2025–June 2026",
     location: "Santa Cruz, California, USA",
     supervisor: "Prof. Hamid Sadjadpour and Dr. Mohammad Moltafet",
-    researchArea: "Age-of-Information-aware status updating in two-way delay systems",
+    researchArea: "Age of Information, Reinforcement Learning, Wireless Networks",
     project: "Age-of-Information-Aware Status Updating in Two-Way Delay Systems",
     bullets: [
       "Developed stochastic models of sampler–sink status-update systems with random two-way delay and finite buffer sizes, extending them to multi-packet systems.",
