@@ -15,7 +15,7 @@ function AoiDiagram() {
 
 export function FeaturedResearch() {
   return (
-    <section className="section section--dark" id="research" aria-labelledby="featured-title">
+    <section className="section section--dark" id="publications" aria-labelledby="featured-title">
       <div className="container">
         <SectionHeading
           eyebrow="03 / Featured research"

@@ -15,13 +15,9 @@ export type SkillGroup = { title: string; items: string[] };
 
 export const navItems: NavItem[] = [
   { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Research", href: "#research" },
-  { label: "Publications", href: "#publications" },
   { label: "Experience", href: "#experience" },
-  { label: "Awards", href: "#awards" },
-  { label: "Skills", href: "#skills" },
-  { label: "Contact", href: "#contact" },
+  { label: "Publications", href: "#publications" },
+  { label: "Misc", href: "#misc" },
 ];
 
 export const experiences: Experience[] = [

@@ -16,8 +16,8 @@ export function Hero() {
             Irvine, working with Prof. Yanning Shen.
           </p>
           <div className="hero-actions">
-            <a className="button button--primary" href="#research">
-              View Research <ArrowRight size={17} />
+            <a className="button button--primary" href="#publications">
+              View Publications <ArrowRight size={17} />
             </a>
             <a className="button button--text" href="mailto:el23jy2@leeds.ac.uk">
               Contact Me

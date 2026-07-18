@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading";
 
 export function Education() {
   return (
-    <section className="section section--tinted" aria-labelledby="education-title">
+    <section className="section section--tinted" id="misc" aria-labelledby="education-title">
       <div className="container">
         <SectionHeading eyebrow="05 / Education" title="A foundation across theory and systems." />
         <article className="education-card">

@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading";
 
 export function Publications() {
   return (
-    <section className="section" id="publications">
+    <section className="section">
       <div className="container">
         <SectionHeading
           eyebrow="04 / Publications & patents"
