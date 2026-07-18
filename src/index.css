@@ -123,8 +123,7 @@ button { font: inherit; }
 
 .nav-actions { display: flex; gap: 7px; }
 
-.icon-button,
-.social-link {
+.icon-button {
   display: inline-grid;
   place-items: center;
   width: 34px;
@@ -136,8 +135,7 @@ button { font: inherit; }
   cursor: pointer;
 }
 
-.icon-button:hover,
-.social-link:hover {
+.icon-button:hover {
   color: var(--accent);
   border-color: var(--accent);
 }
@@ -152,10 +150,7 @@ button { font: inherit; }
 }
 
 .hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 290px;
-  gap: 84px;
-  align-items: center;
+  display: block;
 }
 
 .hero h1 {
@@ -212,36 +207,6 @@ button { font: inherit; }
 .button--secondary { background: var(--surface); }
 .button--text { border-color: transparent; }
 
-.hero-aside {
-  padding-left: 30px;
-  border-left: 1px solid var(--line);
-}
-
-.aside-label {
-  margin: 0 0 18px;
-  color: var(--muted);
-  font-size: 0.67rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.hero-aside strong,
-.hero-aside > span { display: block; }
-.hero-aside strong { font-size: 0.92rem; font-weight: 600; }
-.hero-aside > span { margin-top: 2px; color: var(--muted); font-size: 0.78rem; }
-.hero-aside hr { margin: 18px 0; border: 0; border-top: 1px solid var(--line); }
-
-.hero-meta {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 18px;
-  color: var(--muted);
-  font-size: 0.75rem;
-}
-
-.social-row { display: flex; gap: 7px; margin-top: 18px; }
 .section-heading { margin-bottom: 38px; }
 
 .eyebrow {
@@ -368,8 +333,6 @@ button { font: inherit; }
   .container { width: min(100% - 30px, 560px); }
   .section { padding: 62px 0; }
   .hero { padding: 112px 0 60px; }
-  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
-  .hero-aside { padding: 22px 0 0; border-top: 1px solid var(--line); border-left: 0; }
   .experience-card { min-height: 0; padding: 28px 24px; }
   .experience-mark { right: 10px; font-size: 3.2rem; }
   .experience-card h3 { padding-right: 80px; }

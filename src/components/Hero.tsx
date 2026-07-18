@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Mail, MapPin } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
@@ -38,19 +38,6 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <aside className="hero-aside" aria-label="Current academic status">
-          <p className="aside-label">Current</p>
-          <strong>Research Intern</strong>
-          <span>University of California, Irvine</span>
-          <hr />
-          <strong>BEng Student</strong>
-          <span>SWJTU–Leeds Joint School</span>
-          <div className="hero-meta"><MapPin size={15} /> Chengdu, China</div>
-          <div className="social-row" aria-label="Profile links">
-            <a className="social-link" href="https://github.com/Rosword" target="_blank" rel="noreferrer" aria-label="Jinxin Yang on GitHub"><Github size={17} /></a>
-            <a className="social-link" href="mailto:el23jy2@leeds.ac.uk" aria-label="Email Jinxin Yang"><Mail size={17} /></a>
-          </div>
-        </aside>
       </div>
     </section>
   );
