@@ -285,6 +285,42 @@ button { font: inherit; }
 
 .experience-facts strong { font-weight: 500; }
 
+.education-block {
+  margin-top: 72px;
+}
+
+.education-card {
+  min-height: 200px;
+}
+
+.education-logo {
+  opacity: 0.16;
+}
+
+.experience-logo--leeds {
+  width: 66px;
+  max-width: 66px;
+  max-height: 66px;
+  filter: invert(1);
+}
+
+.education-card .experience-logo--swjtu {
+  max-width: 170px;
+  opacity: 0.14;
+}
+
+.education-facts {
+  margin-top: 28px;
+}
+
+.education-facts p {
+  font-size: 1.08rem;
+}
+
+:root[data-theme="dark"] .education-logo {
+  opacity: 0.22;
+}
+
 .output-list { border-top: 1px solid var(--line); }
 
 .output-card {
@@ -320,6 +356,8 @@ button { font: inherit; }
   .experience-card { min-height: 0; padding: 28px 24px; }
   .experience-logo { top: 22px; right: 20px; max-width: 118px; max-height: 38px; }
   .experience-logo--uci { max-width: 76px; }
+  .experience-logo--leeds { width: 54px; max-width: 54px; max-height: 54px; }
+  .education-block { margin-top: 58px; }
   .experience-card h3 { padding-right: 80px; }
 }
 

@@ -12,6 +12,13 @@ export type Experience = {
   ongoing?: boolean;
 };
 
+export type Education = {
+  institution: string;
+  period: string;
+  degree: string;
+  gpa?: string;
+};
+
 export const navItems: NavItem[] = [
   { label: "Home", href: "#home" },
   { label: "Experience", href: "#experience" },
@@ -59,5 +66,19 @@ export const experiences: Experience[] = [
       "Built MATLAB simulation frameworks for task offloading and resource allocation and reproduced important baselines from recent research.",
     ],
     tags: ["MEC", "Deep Reinforcement Learning", "Lyapunov Optimization", "MATLAB"],
+  },
+];
+
+export const education: Education[] = [
+  {
+    institution: "University of Leeds",
+    period: "2023–2027",
+    degree: "B.Eng. in Electronic and Electrical Engineering",
+  },
+  {
+    institution: "Southwest Jiaotong University",
+    period: "2023–2027",
+    degree: "B.Eng. in Electronic and Electrical Engineering",
+    gpa: "3.91 / 4.00",
   },
 ];

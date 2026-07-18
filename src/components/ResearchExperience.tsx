@@ -1,7 +1,10 @@
-import { experiences } from "../data/portfolio";
+import { education, experiences } from "../data/portfolio";
 import { SectionHeading } from "./SectionHeading";
 
 function institutionLogo(institution: string) {
+  if (institution.includes("Leeds")) {
+    return { src: "/logos/leeds.png", alt: "University of Leeds logo", variant: "leeds" };
+  }
   if (institution.includes("Irvine")) {
     return { src: "/logos/uci.png", alt: "UC Irvine logo", variant: "uci" };
   }
@@ -43,6 +46,37 @@ export function ResearchExperience() {
               </article>
             );
           })}
+        </div>
+        <div className="education-block">
+          <SectionHeading
+            eyebrow="02 / Education"
+            title="Education Experience"
+          />
+          <div className="experience-list">
+            {education.map((item) => {
+              const logo = institutionLogo(item.institution);
+              return (
+                <article className="experience-card education-card" key={item.institution}>
+                  <img
+                    className={`experience-logo education-logo experience-logo--${logo.variant}`}
+                    src={logo.src}
+                    alt={logo.alt}
+                    loading="lazy"
+                  />
+                  <h3>{item.institution}</h3>
+                  <p className="experience-meta">
+                    <time>{item.period}</time>
+                    <span aria-hidden="true">·</span>
+                    <span>Undergraduate</span>
+                  </p>
+                  <div className="experience-facts education-facts">
+                    <p>{item.degree}</p>
+                    {item.gpa && <p><strong>GPA:</strong> {item.gpa}</p>}
+                  </div>
+                </article>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
