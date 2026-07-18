@@ -49,7 +49,7 @@ export const experiences: Experience[] = [
   },
   {
     institution: "Southwest Jiaotong University",
-    role: "Research Assistant — Multi-Access Edge Computing and Deep Reinforcement Learning",
+    role: "Research Assistant",
     period: "October 2024–March 2025",
     location: "Chengdu, China",
     supervisor: "Prof. Xiangyi Chen",

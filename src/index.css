@@ -234,10 +234,6 @@ button { font: inherit; }
   color: var(--muted);
 }
 
-.prose-large p { margin: 0 0 16px; }
-
-.about-copy { max-width: 900px; }
-
 .experience-list {
   display: grid;
   gap: 24px;

@@ -10,9 +10,6 @@ export function Publications() {
             <h3>Status Updating in Two-Way Delay Systems with Preemption</h3>
             <p className="authors"><strong>J. Yang</strong>, M. Moltafet, and H. R. Sadjadpour</p>
             <p className="venue"><em>IEEE Communications Letters</em>, 2026</p>
-            <div className="tag-row">
-              <span>IEEE</span><span>Age of Information</span><span>Markov Decision Process</span>
-            </div>
           </article>
           <article className="output-card">
             <div className="output-type"><FileCheck2 size={19} /> Patent application</div>
