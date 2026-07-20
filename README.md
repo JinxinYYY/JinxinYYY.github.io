@@ -1,85 +1,33 @@
-# Jinxin Yang — Academic Portfolio
+# Jinxin Yang
 
-A responsive, single-page academic portfolio for Jinxin Yang, an undergraduate researcher working across wireless communications, networked systems, graph neural networks, Age of Information, and AI infrastructure.
+Source code for my personal academic website: [jinxinyyy.github.io](https://jinxinyyy.github.io/).
 
-## Technology
+The website contains four sections:
 
-- React and TypeScript
-- Vite
-- Tailwind CSS
-- Lucide React icons
-- GitHub Actions deployment to GitHub Pages
+- Home
+- Experience
+- Publications
+- Misc
 
-## Local development
+## Development
 
-Node.js 20 or newer is recommended.
+This project uses React, TypeScript, and Vite.
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the local URL shown in the terminal.
-
-## Production build
+Create a production build with:
 
 ```bash
 npm run build
 ```
 
-The deployable static site is generated in `dist/`.
+Most academic content is stored in `src/data/portfolio.ts`. Page components are
+in `src/components/`, and the main stylesheet is `src/index.css`.
 
-To preview the production build locally:
+## Deployment
 
-```bash
-npm run preview
-```
-
-## Deploy to GitHub Pages
-
-1. Replace every placeholder listed below.
-2. Create a repository named `Rosword.github.io`.
-3. Push this project to its `main` branch.
-4. In the GitHub repository, open **Settings → Pages**.
-5. Under **Build and deployment**, select **GitHub Actions** as the source.
-6. The workflow in `.github/workflows/deploy.yml` will build and publish the site after each push to `main`.
-
-Example commands:
-
-```bash
-git init
-git add .
-git commit -m "Build personal academic website"
-git branch -M main
-git remote add origin https://github.com/Rosword/Rosword.github.io.git
-git push -u origin main
-```
-
-## Placeholders to replace
-
-- LinkedIn profile URL in the hero, contact section, and footer
-- Google Scholar profile URL in the hero, contact section, and footer
-- Optional Paper, DOI, and Code links in `src/components/Publications.tsx` once real URLs are available
-
-Unfilled social links are intentionally shown as disabled labels so the site never sends visitors to a fake URL.
-
-## Updating content
-
-The main repeatable content lives in `src/data/portfolio.ts`. Section-specific narrative content is stored in the matching component under `src/components/`.
-
-## Project structure
-
-```text
-.github/workflows/deploy.yml
-public/
-  favicon.svg
-src/
-  components/
-  data/portfolio.ts
-  App.tsx
-  index.css
-  main.tsx
-index.html
-package.json
-vite.config.ts
-```
+Updates pushed to the `main` branch are published to GitHub Pages by the workflow
+in `.github/workflows/deploy.yml`.

@@ -6,6 +6,8 @@
 
 # Local tooling and temporary files
 /.agents/
+/.openai/
+/.codex-preview-server.cjs
 /tmp/
 /.wrangler/
 /outputs/
