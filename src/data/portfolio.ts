@@ -79,6 +79,6 @@ export const education: Education[] = [
     institution: "Southwest Jiaotong University",
     period: "2023–2027",
     degree: "B.Eng. in Electronic and Electrical Engineering",
-    gpa: "3.9",
+    gpa: "3.9 / 4.0",
   },
 ];
