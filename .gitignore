@@ -1,0 +1,25 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/dist/
+
+# Local tooling and temporary files
+/.agents/
+/.openai/
+/tmp/
+/.wrangler/
+/outputs/
+/work/
+
+# Environment files
+.env*
+
+# Logs and editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# TypeScript build cache
+*.tsbuildinfo
